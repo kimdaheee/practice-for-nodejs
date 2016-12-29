@@ -5,7 +5,7 @@ const http = require('http');
 //한번 할당되면 거기에 할당된 값을 바꿀 수 없기 때문에 상수(const)
 
 const hostname = '127.0.0.1';
-
+//127.0.0.1로 접속한 사용자에 대해서 응답하라는 명령이다.
 const port = 3000;
 
 const server = http.createServer((req, res) => {
